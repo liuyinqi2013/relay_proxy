@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<server>
+    <request_log>/home/clintzhang/test/synclog/2012-04-10.199.log</request_log>
+    <request_log_pos>0</request_log_pos>
+    <open_log_from_conf>0</open_log_from_conf>
+    <sleep_time>5</sleep_time>
+    <log_time_span>10</log_time_span>
+    <scan_sleep_time>5</scan_sleep_time>
+    <log>/home/clintzhang/test/core_msdb_check/log/core_msdb_check</log>
+    <log_num>10</log_num>
+    <log_size>100</log_size>
+    <frollist>/home/clintzhang/test/core_msdb_check/log/frollist.log</frollist>
+    <fstatislog>/home/clintzhang/test/core_msdb_check/log/fstatis.log</fstatislog>
+    <freezelog>/home/clintzhang/test/core_msdb_check/log/freeze_list.log</freezelog>
+    <freeze_uid_file>/home/clintzhang/test/core_msdb_check/log/update_sql/freeze_uid</freeze_uid_file>
+    <freeze_list_file>/home/clintzhang/test/core_msdb_check/log/update_sql/freeze_list</freeze_list_file>
+    <map_file>/home/clintzhang/test/core_msdb_check/data/map_file.dat</map_file>
+    <freeze_data_num>10240</freeze_data_num>
+    <unfreezed_data_num>1000</unfreezed_data_num>
+    <max_unfreeze_time>36</max_unfreeze_time>
+    <max_unfreeze_times>36</max_unfreeze_times>
+    <sql_log>/home/clintzhang/test/core_msdb_check/log/sql</sql_log>
+    <sql_log_num>10</sql_log_num>
+    <sql_log_size>10</sql_log_size>
+    <update_sql_log>/home/clintzhang/test/core_msdb_check/log/update_sql</update_sql_log>
+    <max_queue_size>4096</max_queue_size>
+    <bind_addr>0.0.0.0</bind_addr>
+    <listen_port>8088</listen_port>
+    <merchant_whitelist>/home/clintzhang/test/merchant_account.txt</merchant_whitelist>
+</server>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+         <connection>
+            <name>user_db_1</name>
+            <host>172.25.39.50</host>
+            <port>3306</port>
+            <user>root</user>
+            <passwd>root1234</passwd>
+            <conn_num>3</conn_num>
+         </connection>
+
+         <connection>
+            <name>user_db_2</name>
+            <host>172.25.39.53</host>
+            <port>3306</port>
+            <user>root</user>
+            <passwd>root1234</passwd>
+            <conn_num>3</conn_num>
+         </connection>
+
+         <connection>
+            <name>bank_db</name>
+            <host>172.25.39.50</host>
+            <port>3306</port>
+            <user>root</user>
+            <passwd>root1234</passwd>
+            <conn_num>3</conn_num>
+         </connection>
+
+         <connection>
+            <name>medi_db</name>
+            <host>172.25.39.50</host>
+            <port>3306</port>
+            <user>root</user>
+            <passwd>root1234</passwd>
+            <conn_num>3</conn_num>
+         </connection>
+
+         <connection>
+            <name>tcbank_list_db_1</name>
+            <host>172.25.39.50</host>
+            <port>3306</port>
+            <user>root</user>
+            <passwd>root1234</passwd>
+            <conn_num>3</conn_num>
+         </connection>
+
+         <connection>
+            <name>tcbank_list_db_2</name>
+            <host>172.25.39.50</host>
+            <port>3306</port>
+            <user>root</user>
+            <passwd>root1234</passwd>
+            <conn_num>3</conn_num>
+         </connection>
+
+         <connection>
+            <name>tcpay_list_db</name>
+            <host>172.25.39.50</host>
+            <port>3306</port>
+            <user>root</user>
+            <passwd>root1234</passwd>
+            <conn_num>3</conn_num>
+         </connection>
+
+         <connection>
+            <name>trans_list_db_1</name>
+            <host>172.25.39.50</host>
+            <port>3306</port>
+            <user>root</user>
+            <passwd>root1234</passwd>
+            <conn_num>3</conn_num>
+         </connection>
+
+         <connection>
+            <name>trans_list_db_2</name>
+            <host>172.25.39.50</host>
+            <port>3306</port>
+            <user>root</user>
+            <passwd>root1234</passwd>
+            <conn_num>3</conn_num>
+         </connection>
+
+         <connection>
+            <name>freeze_list_db</name>
+            <host>172.25.39.50</host>
+            <port>3306</port>
+            <user>root</user>
+            <passwd>root1234</passwd>
+            <conn_num>3</conn_num>
+         </connection>
+
+         <connection>
+            <name>master_user_db_1</name>
+            <host>172.25.39.53</host>
+            <port>3306</port>
+            <user>root</user>
+            <passwd>root1234</passwd>
+            <conn_num>3</conn_num>
+         </connection>
+
+         <connection>
+            <name>master_user_db_2</name>
+            <host>172.25.39.53</host>
+            <port>3306</port>
+            <user>root</user>
+            <passwd>root1234</passwd>
+            <conn_num>3</conn_num>
+         </connection>
+
+         <connection>
+            <name>master_bank_db</name>
+            <host>172.25.39.53</host>
+            <port>3306</port>
+            <user>root</user>
+            <passwd>root1234</passwd>
+            <conn_num>3</conn_num>
+         </connection>
+
+         <connection>
+            <name>master_medi_db</name>
+            <host>172.25.39.53</host>
+            <port>3306</port>
+            <user>root</user>
+            <passwd>root1234</passwd>
+            <conn_num>3</conn_num>
+         </connection>
+</root>
+
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- shmkey: 共享内存区key-->
+<!-- shmsize: 共享内存区大小-->
+<hasite shmkey="13001" shmsize="102400">
+	<!--server_name：站点名，程序中以此为检索条件，长度不能超长15个字符 -->
+	<!--estop_time：发生故障时禁用时间，以秒为单位-->
+	<site server_name="middle_64_49" protocol="tcp" estop_time="10">
+        <!--<sitenode ip="192.168.64.49" port="28000"/> -->
+        <sitenode ip="172.25.38.123" port="28000"/>
+		<!--<sitenode ip="10.1.46.140" port="28000"/>-->
+	</site>
+	<site server_name="middle_38_56" protocol="tcp" estop_time="300">
+		<sitenode ip="172.25.38.56" port="28000"/>
+	</site>
+	<site server_name="middle_46_130" protocol="tcp" estop_time="300">
+		<sitenode ip="10.1.46.130" port="28000"/>
+	</site>
+    <site server_name="middle_206_73" protocol="tcp" estop_time="300">
+         <sitenode ip="10.6.206.73" port="28000"/>
+    </site>
+    <site server_name="middle_206_71" protocol="tcp" estop_time="300">
+         <sitenode ip="10.6.206.71" port="28000"/>
+         <sitenode ip="172.25.39.53" port="28000"/>
+    </site>
+    <site server_name="middle_46_140" protocol="tcp" estop_time="300">
+		<sitenode ip="10.1.46.140" port="28000"/>
+	</site>
+	<site server_name="middle_46_138" protocol="tcp" estop_time="300">
+		<sitenode ip="10.1.46.138" port="28000"/>
+	</site>
+        <site server_name="middle_38_6" protocol="tcp" estop_time="300">
+                <sitenode ip="172.25.38.6" port="28000"/>
+        </site>
+	<site server_name="cs_middle" protocol="tcp" estop_time="300">
+		<sitenode ip="172.16.18.13" port="28000"/>
+	</site>
+	<site server_name="middle_38_7" protocol="tcp" estop_time="300">
+                <sitenode ip="172.25.38.7" port="28000"/>
+	</site>	
+	<site server_name="middle_38_123" protocol="tcp" estop_time="300">
+                <sitenode ip="172.25.38.123" port="28000"/>
+	</site>
+	<site server_name="lvs_1" protocol="tcp" estop_time="300">
+                <sitenode ip="172.25.38.6" port="18000"/>
+	</site>
+	<site server_name="middle_38_10" protocol="tcp" estop_time="300">
+                <sitenode ip="172.25.38.10" port="28000"/>
+	</site>
+	<site server_name="middle_39_53" protocol="tcp" estop_time="300">
+                <sitenode ip="172.25.39.53" port="28000"/>
+	</site>
+	<site server_name="middle_38_14" protocol="tcp" estop_time="300">
+                <sitenode ip="172.25.38.14" port="28000"/>
+	</site>
+	<site server_name="middle_208_185" protocol="tcp" estop_time="300">
+		<sitenode ip="10.6.208.185" port="28000"/>
+	</site> 
+        <site server_name="middle_39_50" protocol="tcp" estop_time="300">
+                <sitenode ip="172.25.39.50" port="28000"/>
+    </site>
+    <site server_name="middle_206_74" protocol="tcp" estop_time="300">
+         <sitenode ip="10.6.206.74" port="28000"/>
+    </site>
+    
+    </hasite>
